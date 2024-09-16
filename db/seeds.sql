@@ -24,7 +24,7 @@ VALUES  ("Engineering Manager", 120000, 1),
 -- Inserting multiple employees into the 'employee' table with their first name, last name, role ID, and manager ID
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Roxy", "Say",  1, NULL),
-        ("Jane", "Doe",  2, 1), lead
+        ("Jane", "Doe",  2, 1), 
         ("Janet", "Doe",  3, 1), 
         ("Jennifer", "Doe",  4, NULL), 
         ("Julia", "Doe",  5, 4),
