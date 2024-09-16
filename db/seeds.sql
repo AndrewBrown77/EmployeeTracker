@@ -1,3 +1,4 @@
+-- Inserting multiple department names into the 'department' table
 INSERT INTO department (name)
 VALUES  ("Engineering"),
         ("Finance"),
@@ -5,6 +6,7 @@ VALUES  ("Engineering"),
         ("Sales"),
         ("Legal");
 
+-- Inserting multiple roles into the 'role' table with their associated salaries and department IDs
 INSERT INTO role (title, salary, department_id)
 VALUES  ("Engineering Manager", 120000, 1),
         ("Engineering Lead", 100000, 1),
@@ -19,6 +21,7 @@ VALUES  ("Engineering Manager", 120000, 1),
         ("Legal Manager", 110000, 5),
         ("Lawyer", 95000, 5);
 
+-- Inserting multiple employees into the 'employee' table with their first name, last name, role ID, and manager ID
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES  ("Roxy", "Say",  1, NULL),
         ("Jane", "Doe",  2, 1), lead

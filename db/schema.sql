@@ -28,7 +28,7 @@ CREATE TABLE employee (
     FOREIGN KEY (role_id)
     REFERENCES role(id), 
     FOREIGN KEY (manager_id)
-    REFERENCES employee(id) WHERE role.title LIKE '%Manager%'
+    REFERENCES employee(id) 
     manager_id INT NOT NULL
     ON DELETE SET NULL
 ); -- Create a table named 'employee' to store employee information
